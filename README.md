@@ -2,7 +2,6 @@
 
 This is Dave Liggat's incarnation of [Plyfe](https://github.com/plyfe/our-boxen)'s incarnation of [GitHub's Boxen](https://boxen.github.com). Automated Mac provisioning.
 
-
 ## My steps for Boxenizing my machines:
 *tested on clean OS X 10.8 machine*
 
