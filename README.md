@@ -5,6 +5,7 @@ This is Dave Liggat's incarnation of [Plyfe](https://github.com/plyfe/our-boxen)
 ## My steps for Boxenizing my machines:
 *tested on clean OS X 10.8 machine*
 
+
 ### Prerequisites
 1. You have a GitHub account, and have been added to the plyfe organization.
 2. Someone has 'onboarded' you to the plyfe/our-boxen repository and has created a `modules/people/manifests/$YOUR_GITHUB_HANDLE.pp` personal manifest file. See @dliggat or @chrislopresto for more info.
