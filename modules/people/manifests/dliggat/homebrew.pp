@@ -6,7 +6,8 @@ class people::dliggat::homebrew {
     [
       'exiftool',
       'pwgen',
-      'tree'
+      'tree',
+      'wget'
     ]:
   }
 
