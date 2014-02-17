@@ -4,6 +4,7 @@ class people::dliggat::apps {
 
   # include alfred
   include gitx
+  include foreman
   # include heroku
   # include imagemagick
   include iterm2::stable
