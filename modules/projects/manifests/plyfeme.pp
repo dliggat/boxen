@@ -46,6 +46,11 @@ class projects::plyfeme {
     ip => "127.0.0.1",
   }
 
+  nodejs::module {
+    'bower':
+      node_version => 'v0.10';
+  }
+
   # Create the project tmp directory (used for JasmineHeadlessWebkit and not in the git repo).
   file { "${boxen::config::srcdir}/plyfeme/tmp":
     ensure  => "directory",
