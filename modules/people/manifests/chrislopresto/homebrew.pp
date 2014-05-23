@@ -8,8 +8,7 @@ class people::chrislopresto::homebrew {
       'gdbm',
       'pwgen',
       'sqlite',
-      'tree',
-      'z'
+      'tree'
     ]:
   }
 

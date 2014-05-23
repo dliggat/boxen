@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
-    foreman (1.0.0)
+    foreman (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -99,11 +99,6 @@ GITHUBTARBALL
     osx (2.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-phantomjs
-  specs:
-    phantomjs (2.0.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
@@ -121,7 +116,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.7.2)
+    ruby (7.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
@@ -172,7 +167,7 @@ DEPENDENCIES
   alfred (= 1.1.2)
   boxen (= 3.3.4)
   dnsmasq (= 1.0.1)
-  foreman (= 1.0.0)
+  foreman (= 1.1.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
   gitx (= 1.2.0)
@@ -190,11 +185,10 @@ DEPENDENCIES
   onepassword (= 1.0.1)
   openssl (= 1.0.0)
   osx (= 2.2.0)
-  phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   redis (= 1.0.0)
   repository (= 2.2.0)
-  ruby (= 6.7.2)
+  ruby (= 7.3.0)
   sequel_pro (= 1.0.0)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
