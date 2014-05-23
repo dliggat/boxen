@@ -63,6 +63,23 @@ class projects::plyfeme {
     ip => "127.0.0.1",
   }
 
+  # TODO: Remove casperjs/phantomjs ensure => absent
+  package { 'casperjs':
+    ensure => absent
+  }
+  package { 'phantomjs':
+    ensure => absent
+  }
+
+  nodejs::module {
+    'bower':
+      node_version => 'v0.10';
+    'phantomjs@1.9.7-1':
+      node_version => 'v0.10';
+    'casperjs@1.1.0-beta3':
+      node_version => 'v0.10';
+  }
+
   # Create the project tmp directory (used for JasmineHeadlessWebkit and not in the git repo).
   file { "${boxen::config::srcdir}/plyfeme/tmp":
     ensure  => "directory",
