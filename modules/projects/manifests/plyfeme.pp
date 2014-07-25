@@ -5,7 +5,7 @@ class projects::plyfeme {
   boxen::project { 'plyfeme':
     mysql         => true,
     redis         => true,
-    ruby          => '1.9.3-p545',
+    ruby          => '2.1.1',
     dir           => "${boxen::config::srcdir}/plyfeme",
     source        => 'plyfe/plyfeme',
   }
@@ -22,25 +22,6 @@ class projects::plyfeme {
       'libxml2',
       'qt'
     ]:
-  }
-
-  # TODO: Remove casperjs/phantomjs ensure => absent
-  package { 'casperjs':
-    ensure => absent
-  }
-  package { 'phantomjs':
-    ensure => absent
-  }
-
-  nodejs::module {
-    'phantomjs@1.9.7-1':
-      node_version => 'v0.10';
-
-    'casperjs@1.1.0-beta3':
-      node_version => 'v0.10';
-
-    'bower':
-      node_version => 'v0.10';
   }
 
   # Hosts file entries for the project.
@@ -61,14 +42,6 @@ class projects::plyfeme {
   }
   host { "platform-development.plyfe.me":
     ip => "127.0.0.1",
-  }
-
-  # TODO: Remove casperjs/phantomjs ensure => absent
-  package { 'casperjs':
-    ensure => absent
-  }
-  package { 'phantomjs':
-    ensure => absent
   }
 
   nodejs::module {
