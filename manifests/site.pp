@@ -64,12 +64,7 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  # node versions
-  class { 'nodejs::global':
-    version => 'v0.10'
-  }
-  include nodejs::v0_8_8
-  include nodejs::v0_10
+  class { 'nodejs::global': version => 'v0.10.29' }
 
   # default ruby version.
   class { 'ruby::global':

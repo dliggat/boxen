@@ -51,6 +51,8 @@ class projects::plyfeme {
       node_version => 'v0.10';
     'casperjs@1.1.0-beta3':
       node_version => 'v0.10';
+    'ember-cli':
+      node_version => 'v0.10.29';
   }
 
   # Create the project tmp directory (used for JasmineHeadlessWebkit and not in the git repo).

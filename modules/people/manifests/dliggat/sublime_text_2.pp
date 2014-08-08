@@ -55,5 +55,7 @@ class people::dliggat::sublime_text_2 {
   sublime_text_2::package { 'Color Scheme - Solarized':
     source => 'altercation/solarized'
   }
-
+  sublime_text_2::package { 'Handlebars':
+    source => 'daaain/Handlebars'
+  }
 }
