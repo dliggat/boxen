@@ -58,4 +58,7 @@ class people::dliggat::sublime_text_2 {
   sublime_text_2::package { 'Handlebars':
     source => 'daaain/Handlebars'
   }
+  sublime_text_2::package { 'LESS-sublime':
+    source => 'danro/Less-sublime'
+  }
 }
